@@ -1,0 +1,12 @@
+.form-item {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+.stylized {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 10px 0px;
+  margin: .5rem;
+  color: white;
+}

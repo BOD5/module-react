@@ -1,0 +1,14 @@
+.menu-btn {
+  padding: .5rem .25rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-bottom: 1px solid white;
+  margin: .25rem;
+  transition: .3s;
+}
+
+.menu-btn:hover {
+  color: pink;
+  border-color: pink;
+}

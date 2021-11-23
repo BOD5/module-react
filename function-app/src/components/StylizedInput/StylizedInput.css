@@ -1,0 +1,36 @@
+.input-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+.input-stylized {
+  background-color: transparent;
+  width: 325px;
+  color: #eeeeee;
+  outline: none;
+  outline-style: none;
+  border: none;
+  border-bottom: solid #eeeeee 1px;
+  padding: 0px 10px;
+  margin: 0px 10px;
+}
+
+textarea {
+  border-bottom: 1px solid #000;
+}
+
+.form-label {
+  position: absolute;
+  pointer-events: none;
+  left: 15px;
+  top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: .3s;
+}
+.input-stylized:focus~.form-label {
+  left: 20px;
+  top: -5px;
+  font-size: 12px;
+}
